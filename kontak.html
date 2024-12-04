@@ -10,6 +10,11 @@
 
   gtag('config', 'G-VTNX52GHM6');
 </script>
+<script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="description" content="FMQ CCTV offers professional CCTV installation services in Gunung Putri-Citeureup with competitive pricing and guaranteed quality.">
@@ -70,26 +75,26 @@
       <div class="row justify-content-center ">
         <div class="col-lg-6 ktk-kami">
           <h2>Ada Yang Ingin Ditanyakan?</h2>
-          <form action="" method="post">
+          <form method="post">
             <table>
               <tr>
                 <td>
-                  <input type="text" id="subject" placeholder="Nama Anda">
+                  <input type="text" id="subject" name="subject" placeholder="Nama Anda">
                 </td>
               </tr>
               <tr>
                 <td>
-                  <input type="email" id="email_subject" placeholder="Email Anda">
+                  <input type="email" id="email_subject" name="email_subject" placeholder="Email Anda">
                 </td>
               </tr>
               <tr>
                 <td>
-                  <input type="number" id="notel" placeholder="Nomor WhatsApp">
+                  <input type="number" id="notel" name="notel" placeholder="Nomor WhatsApp">
                 </td>
               </tr>
               <tr>
                 <td>
-                  <textarea name="" id="messages" placeholder="Pesan Anda"></textarea>
+                  <textarea name="" id="messages" name="messages" placeholder="Pesan Anda"></textarea>
                 </td>
               </tr>
               <tr>
